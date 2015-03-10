@@ -11,7 +11,7 @@ fi
 
 if [[ "$branch" = "production" ]]; then
   root_dir="$site_dir/public"
-elif [[ "$branch" = "staging" ]]; then
+elif [[ "$branch" = "master" ]]; then
   root_dir="$site_dir/public/staging"
 else
   echo "=> Skipping deploy for $branch branch"
