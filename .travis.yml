@@ -1,7 +1,5 @@
-language: node_js
-node_js:
-- '0.10'
+language: nodejs
 script:
-- echo 'DONE!'
+- node ./deploy/build.js
 after_success:
 - bash deploy/script.bash
