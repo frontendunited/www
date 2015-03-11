@@ -12,3 +12,7 @@ p {
   position: absolute;
   width: 1px;
 }
+
+.caps {
+  letter-spacing: -.01em
+}
