@@ -23,6 +23,7 @@ openssl aes-256-cbc -K $encrypted_994a64a0c4e9_key -iv $encrypted_994a64a0c4e9_i
 chmod 600 deploy/ssh_private_key
 ssh-keyscan -t rsa frontendunited.io >> ~/.ssh/known_hosts
 chmod 600 ~/.ssh/known_hosts
+ssh -i deploy/ssh_private_key frontendunited@frontendunited.io "rm -rf $root_dir"
 ssh -i deploy/ssh_private_key frontendunited@frontendunited.io "mkdir -p $root_dir"
 scp -r -i deploy/ssh_private_key ./public/* frontendunited@frontendunited.io:$root_dir
 find $site_dir -type f -exec chmod 644 {} \;
