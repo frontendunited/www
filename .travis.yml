@@ -1,4 +1,5 @@
-language: nodejs
+language: bash
+sudo: false
 script:
 - node ./deploy/build.js
 after_success:
