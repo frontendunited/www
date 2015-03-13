@@ -16,3 +16,7 @@ p {
 .caps {
   letter-spacing: -.01em
 }
+
+.button-bigger {
+  padding: 1.75rem 3rem;
+}
