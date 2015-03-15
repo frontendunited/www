@@ -1,5 +1,10 @@
+body {
+  color: #444;
+}
+
 p {
   font-size: 1.15em;
+  font-weight: 300;
 }
 
 .visuallyhidden {
@@ -19,4 +24,22 @@ p {
 
 .button-bigger {
   padding: 1.75rem 3rem;
+}
+
+.campaign-video {
+  position: relative;
+  padding-bottom: 66.6%;
+  height: 0;
+}
+
+.campaign-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contributors-list .h5 {
+  white-space: nowrap;
 }
