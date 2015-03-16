@@ -1,1 +1,1 @@
-RedirectMatch 301 / /leokzw/$1
+RedirectMatch 301 ^/$ /leokzw/
