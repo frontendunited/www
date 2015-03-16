@@ -56,3 +56,66 @@ p {
             flex: 0 1 49.8%;
   }
 }
+
+.contributors-list .h5 {
+  white-space: nowrap;
+}
+
+.eventials-speakers {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.eventials-speaker {
+  overflow: hidden;
+  padding-bottom: 2rem;
+}
+
+.eventials-speaker-photo {
+  box-sizing: border-box;
+  width: 17.5%;
+  padding: 0 1em 0 0;
+  float: left;
+}
+
+.eventials-speaker-info {
+  width: 82.5%;
+  float: left;
+}
+
+.eventials-speaker-photo img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.eventials-speakers .h3 {
+  margin-top: 0;
+}
+
+.eventials-speaker .h4 {
+  font-size: 1em;
+}
+
+.eventials-speakers p {
+  font-size: 1em;
+  margin-bottom: 0;
+}
+
+@media (max-width: 40em) {
+  .eventials-speaker-photo {
+    float: none;
+    width: 33.3%;
+    padding: 0;
+    margin: 0 auto 1em;
+  }
+
+  .eventials-speaker-info {
+    width: 100%;
+    float: none;
+  }
+
+  .eventials-speakers .h3,
+  .eventials-speakers .h4 {
+    text-align: center;
+  }
+}
