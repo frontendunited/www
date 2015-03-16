@@ -40,6 +40,19 @@ p {
   height: 100%;
 }
 
-.contributors-list .h5 {
-  white-space: nowrap;
+@media screen and (max-width: 400px) {
+  .avatars {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+
+  .avatars > li {
+    -webkit-flex: 0 1 49.8%;
+        -ms-flex: 0 1 49.8%;
+            flex: 0 1 49.8%;
+  }
 }
