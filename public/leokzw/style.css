@@ -55,6 +55,10 @@ p {
         -ms-flex: 0 1 49.8%;
             flex: 0 1 49.8%;
   }
+
+  .button-bigger {
+    line-height: 1.2em;
+  }
 }
 
 .contributors-list .h5 {
@@ -117,5 +121,9 @@ p {
   .eventials-speakers .h3,
   .eventials-speakers .h4 {
     text-align: center;
+  }
+
+  .button-bigger {
+    line-height: 1.2em;
   }
 }
